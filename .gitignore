@@ -1,6 +1,6 @@
-!/kubernetes/terraform.tfstate
-!/kubernetes/terraform.tfstate.backup
-!/kubernetes/.terraform.lock.hcl
-!/kubernetes/.terraform/
-!/.tool-versions
-!/.idea/
+.idea/
+.tool-versions
+kubernetes/.terraform/
+kubernetes/.terraform.lock.hcl
+kubernetes/terraform.tfstate
+kubernetes/terraform.tfstate.backup
