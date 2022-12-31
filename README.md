@@ -47,9 +47,10 @@ Para validar se o Localstack subiu é só realizar a chamada dele pelo browse no
 
 ### Provisionar o S3 no Localstack
 
-Depois de instalar o Localstack é necessário configurar o Terraform, para isso é necessário configurar o terraform para execução local (https://docs.localstack.cloud/user-guide/integrations/terraform/).
 
-Com o Terraform instalado, é só executar o comando `tflocal apply` dentro da pasta *kubernetes* para realizar o provisionamento do S3 dentro do Localstack.
+Depois de instalar o Localstack é necessário configurar o Terraform, ele pode ser baixado diretamente no site do [Terraform](https://www.terraform.io/download) ou pode ser utilizado um gerenciado como o [ASDF](https://asdf-vm.com/).
+
+Com o Terraform instalado, executar o comando `terraform init` e logo em seguida executar o comando `terraform apply` dentro da pasta *kubernetes* para realizar o provisionamento do S3 dentro do Localstack.
 
 ![Execução S3](imagens/localstack_running_s3.png "Execução S3")
 
